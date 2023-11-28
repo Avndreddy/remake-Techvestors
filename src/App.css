@@ -2,6 +2,25 @@
   text-align: center;
 }
 
+/* My CSS */
+.bigHeading {
+  font-size: 70px;
+  text-align: center;
+  color: #1971c2;
+}
+
+.MenuButton{
+  color: rgb(61, 58, 58);
+}
+
+.ptag{
+  font-size: 20px;
+  text-align: center;
+ color: #868e96;
+}
+
+/* My CSS END */
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,6 +31,8 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+
 
 .App-header {
   background-color: #282c34;
