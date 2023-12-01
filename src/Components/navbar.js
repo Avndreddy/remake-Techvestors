@@ -51,7 +51,6 @@ export default function Test2() {
         marginTop: '20px',
         borderRadius: '10px',
         padding: isMobile ? "10px" : 'none',
-
         position:"absolute"
       }}>
         <Toolbar>
@@ -80,8 +79,8 @@ export default function Test2() {
             </Grid>
           )}
 
-          <IconButton color="inherit" edge="end" style={{justifyContent:"end"}}>
-            <Button variant="contained"  size={Bsize} >Enquire Now</Button>
+          <IconButton color="inherit" edge="end" style={{justifyContent:"flex-end"}}>
+            <Button variant="contained"  size='sm' style={{borderRadius:"20px"}} >Enquire Now</Button>
           </IconButton>
         </Toolbar>
       </AppBar>
@@ -102,7 +101,7 @@ export default function Test2() {
         textAlign: 'center',
         position: 'absolute'
       }}>
-        <h1 className="bigHeading" style={{textDecoration:"underline",textDecorationThickness:isMobile?"2px":isTab?"4px":"",fontSize:isMobile?"50px":"70px"}}>techvertors</h1>
+        <h1 className="bigHeading" style={{textDecoration:"underline",textDecorationThickness:isMobile?"2px":isTab?"4px":"4px",fontSize:isMobile?"50px":"70px",fontFamily:"sans-serif",fontWeight:"700"}}>techvertors</h1>
         <h1 style={{ marginTop: isMobile ? '-45px' : '-60px', color: '#1e6eb5',fontSize:isMobile?"20px":"30px" }}>together we grow</h1>
         <pre className="ptag" style={{ 
           margin: "0 90px",
@@ -114,10 +113,10 @@ export default function Test2() {
           Are you tired of dealing with the same old problems over and over again? Techvestors offers a fresh perspective. Our team of techies invests in the latest and greatest technology to solve your challenges once and for all.
         </pre>
         <Box style={{marginTop: "20px", justifyContent: "center", display: "flex", gap: "20px"}}>
-          <Button variant="outlined" size={Bsize} >
+          <Button variant="outlined" size={Bsize} style={{borderRadius:"20px"}} >
             Work with us
           </Button>
-          <Button variant="contained" size={Bsize}>Enquire Now</Button>
+          <Button variant="contained" style={{borderRadius:"20px"}} size={Bsize}>Enquire Now</Button>
         </Box>
       </Box>
     </Box>
