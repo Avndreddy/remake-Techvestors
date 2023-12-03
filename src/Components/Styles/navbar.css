@@ -1,0 +1,46 @@
+.appbar {
+  margin-top: 20px;
+  border-radius: "20px";
+  border: "2px solid #e7f5ff";
+}
+
+.logo {
+  justify-content: start;
+  width: 275px;
+  max-width: 200%;
+  margin-top: auto;
+  margin-bottom: auto;
+  @media (max-width: 600px) {
+    width: 170px;
+  }
+}
+
+
+.atag {
+  text-decoration: none;
+  color: gray;
+  font-family: sans-serif;
+  font-weight: 700;
+  @media (max-width:600px) {
+    font-size: 15px;
+  }
+}
+
+.atag:hover {
+  animation-delay: 1ms;
+  color: blue;
+}
+
+Button.btn {
+  border-radius: 20px;
+  justify-content: right;
+  text-align: center;
+  width: 100%;
+  @media (max-width: 600px) {
+    size: 10px;
+    font-size: 10px;
+  }
+  
+}
+
+

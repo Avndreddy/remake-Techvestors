@@ -14,7 +14,6 @@ const Test = () => {
   const backgroundStyle1 = {
     backgroundImage: `url(${backdark1})`,
     backgroundRepeat: "repeat-x",
-    backgroundSize: "auto",
     backgroundPosition: "100px 0",
     position: "absolute",
     top: 0,
@@ -26,7 +25,6 @@ const Test = () => {
   const backgroundStyle2 = {
     backgroundImage: `url(${backdark3})`,
     backgroundRepeat: "repeat-x",
-    backgroundSize: "auto",
     backgroundPosition: "-100px 35px",
     position: "absolute",
     top: 0,
@@ -37,7 +35,6 @@ const Test = () => {
   const backgroundStyle3 = {
     backgroundImage: `url(${backdark2})`,
     backgroundRepeat: "repeat-x",
-    backgroundSize: "auto",
     backgroundPosition: "10px 35px",
     position: "absolute",
     top: 0,

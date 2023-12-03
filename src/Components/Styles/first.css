@@ -1,0 +1,106 @@
+* {
+    font-family: DM Sans,sans-serif;
+}
+.bigHeading {
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  text-align: centser;
+  color: #1971c2;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.subHeading {
+    margin-top: -25px;
+    margin-bottom: 0px;
+    font-size: 50px;
+    font-weight: 700;
+  color: #1e6eb5;
+  text-align: center;
+}
+
+.MenuButton {
+  color: rgb(61, 58, 58);
+}
+
+.ptag {
+  font-size: 20px;
+  text-align: center;
+  color: #868e96;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 800px;
+  
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+Button.btns {
+  border-radius: 20px;
+  font-weight: 700;
+  width: auto;
+  
+}
+
+div.first{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:800px) {
+
+    .ptag{
+     width: 600px;
+        font-size: 15px;
+    }
+    Button.btns {
+        font-size: 13px;
+      }
+      .bigHeading {
+        font-size: 80px;
+    }
+    .subHeading {
+        font-size: 40px;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width:600px) {
+
+    .ptag{
+     width: 400px;
+        font-size: 15px;
+    }
+    Button.btns {
+        font-size: 10px;
+      }
+      .bigHeading {
+        font-size: 60px;
+    }
+    .subHeading {
+        font-size: 30px;
+        margin-top: -15px;
+    }
+}
+@media (max-width:400px) {
+
+    .ptag{
+     width: 300px;
+        font-size: 13px;
+    }
+    .bigHeading {
+        font-size: 40px;
+    }
+    .subHeading {
+        font-size: 20px;
+        margin-top: -6px;
+    }
+}
