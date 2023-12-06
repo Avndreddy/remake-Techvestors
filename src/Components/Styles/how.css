@@ -6,6 +6,10 @@
   width: 800px;
 }
 
+Button.btn{
+  border-radius: 20px;
+}
+
 .whitetext {
   text-shadow: -1px 1px 0 #d3d3d3, 1px 1px 0 #d3d3d3, 1px -1px 0 #d3d3d3,
     -1px -1px 0 #d3d3d3;

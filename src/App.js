@@ -7,6 +7,7 @@ import "./Components/Styles/navbar.css";
 import Main from "./Components/main";
 import First from "./Components/first";
 import How from "./Components/how";
+import Footer from "./Components/footer";
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ function App() {
         <Route path="/test" element={<Test />} />
         <Route path="/who" element={<Who />} />
         <Route path="/how" element={<How />} />
+        <Route path="/footer" element={<Footer />} />
       </Routes>
     </BrowserRouter>
   );

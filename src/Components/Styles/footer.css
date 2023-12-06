@@ -1,0 +1,38 @@
+
+  .footer {
+    justify-content: center;
+  }
+
+  .footer-container{
+    padding-left: 1em;
+    padding: 1em;
+    background-color: #1971c2;
+    color:beige;
+    border: 3px dotted green;
+    border-radius: 20px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+  .box:nth-child(1){
+    
+  }
+
+  img{
+    width: 250px;
+  }
+
+  .company{
+    color:beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 1.25rem;
+  }
+
+  .botton-text{
+    color:beige;
+    display: flex;
+    justify-content: center;
+    margin: -30px;
+  }
