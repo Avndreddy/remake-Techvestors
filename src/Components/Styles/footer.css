@@ -1,9 +1,5 @@
 
   .footer {
-    justify-content: center;
-  }
-
-  .footer-container{
     padding-left: 1em;
     padding: 1em;
     background-color: #1971c2;
@@ -11,28 +7,90 @@
     border: 3px dotted green;
     border-radius: 20px;
     height: 300px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-  }
-  .box:nth-child(1){
-    
   }
 
+  .icon-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      gap: 10px;
+      padding: 7px;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+
   img{
-    width: 250px;
+    width: 300px;
+  }
+
+  .white-logo{
+    display: flex;
+    justify-content: center;
+    color:beige;
+    gap: 15px;
+  }
+
+  .iconcolor{
+    color: aliceblue;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .iconcolor:hover{
+    font-size: 40px;
+  }
+
+  .a-link{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
   }
 
   .company{
     color:beige;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     font-size: 1.25rem;
+    gap: 7px;
+    margin: 10px;
   }
+.text-effect:hover{
+  font-size: 1.40rem;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
 
   .botton-text{
     color:beige;
     display: flex;
     justify-content: center;
-    margin: -30px;
+    margin: 15px;
+  }
+
+
+  @media (max-width:800px) {
+
+    .footer {
+      padding-left: 1em;
+      padding: 1em;
+      background-color: #1971c2;
+      color:beige;
+      border: 3px dotted green;
+      border-radius: 20px;
+      height: 400px;
+    }
+
+
+    .a-link{
+      margin-left: 80px;
+      margin-right: 80px;
+      grid-template-columns: repeat(2,1fr);
+    }
   }
