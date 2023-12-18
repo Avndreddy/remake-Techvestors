@@ -17,10 +17,10 @@ export default function First() {
         the latest and greatest technology to solve your challenges once and for
         all.
       </p>
-      <span className="btn">
+      <div className="first-btn">
         <Button className="btns" variant="outlined" >Work with us</Button>
         <Button className="btns" variant="contained">Enquire Now</Button>
-      </span>
+      </div>
     </Box>
   );
 }

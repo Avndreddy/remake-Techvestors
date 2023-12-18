@@ -1,12 +1,12 @@
 import React from "react";
-import backdark1 from "./backdark.svg";
+import backdark1 from "./backlight.svg";
 import backdark2 from "./backlight.svg";
 import backdark3 from "./backdark.svg";
 
 const Test = () => {
   const containerStyle = {
     width: "100vw", // 100% of the viewport width
-    height: "100vh", // 100% of the viewport height
+    height: "50vh", // 100% of the viewport height
     position: "relative",
     marginTop:"-70px" // Set the container to relative positioning
   };

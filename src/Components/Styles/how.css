@@ -6,8 +6,9 @@
   width: 800px;
 }
 
-Button.btn{
+Button.btn {
   border-radius: 20px;
+  position: static;
 }
 
 .whitetext {
@@ -54,8 +55,9 @@ Button.btn{
   justify-content: center;
   width: 100%;
   align-items: center;
-  width: 220px;
-  height: 330px;
+  width: 180px;
+  height: 280px;
+  font-size: 13px;
   gap: 15px;
   text-align: center;
   margin: 20px 20px;
@@ -70,16 +72,17 @@ Button.btn{
   justify-content: center;
 }
 
-.R-title{
-font-size: 30px;
-font-weight: 600;
-display: flex;
-justify-content: center;
+.R-title {
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
 }
 
 .howimg {
   mix-blend-mode: multiply;
   width: 100px;
+  position: sticky;
 }
 
 .circle {
@@ -91,173 +94,161 @@ justify-content: center;
   width: 20%;
 }
 
-@media (max-width:800px) {
-    .how {
-        width: 600px;
-        
-      }
+@media (max-width: 800px) {
+  .how {
+    width: 600px;
+  }
 
-      .grid-parent {
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-        width: auto;
-        margin-left: 50%;
-        margin-right: 50%;
-      }
-      /* the below ones are for making the card 4 an 5 to display in center */
-      .box:nth-child(4)
-      {
-        margin-left: 20px;
-        margin-right: 20px;
-      }
-      .box:nth-child(5) {
-        margin-left: 50%;
-        margin-right: 50%;
-      }
+  .grid-parent {
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    width: auto;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+  /* the below ones are for making the card 4 an 5 to display in center */
+  .box:nth-child(4) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .box:nth-child(5) {
+    margin-left: 50%;
+    margin-right: 50%;
+  }
 
+  .box {
+    width: 180px;
+    height: 250px;
+    font-size: 13px;
+  }
 
-      .box {
-        width: 180px;
-        height: 250px;
-        font-size: 13px;
-      }
+  .box-title {
+    font-size: 20px;
+  }
 
-      .box-title {
-        font-size: 20px;
-      }
-      
-      .howimg {
-        width: 90px;
-      }
-      .circle {
-        border: 1.9px solid black;
-        font-size: 25px;
-        width: 15%;
-      }
+  .howimg {
+    width: 90px;
+  }
+  .circle {
+    border: 1.9px solid black;
+    font-size: 25px;
+    width: 15%;
+  }
 
-      .whitetext {
-        font-size: 80px;
-      }
-      
-      .text-subtitle {
-        font-size: 25px;
-        margin-top: -40px;
-      }
+  .whitetext {
+    font-size: 80px;
+  }
 
+  .text-subtitle {
+    font-size: 25px;
+    margin-top: -40px;
+  }
 }
 
+@media (max-width: 600px) {
+  .how {
+    width: 400px;
+  }
 
-@media (max-width:600px) {
-    .how {
-        width: 400px;
-      }
+  .grid-parent {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* the below ones are for making the card 4 an 5 to display in center */
+  .box:nth-child(4) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .box:nth-child(5) {
+    margin-left: 50%;
+    margin-right: 50%;
+  }
 
-      .grid-parent {
-        grid-template-columns: 1fr 1fr;
-      }
-      /* the below ones are for making the card 4 an 5 to display in center */
-      .box:nth-child(4)
-      {
-        margin-left: 20px;
-        margin-right: 20px;
-      }
-      .box:nth-child(5) {
-        margin-left: 50%;
-        margin-right: 50%;
-      }
+  .box {
+    width: 160px;
+    height: 220px;
+    font-size: 11px;
+  }
 
-      .box {
-        width: 160px;
-        height: 220px;
-        font-size: 11px;
-      }
+  .box-title {
+    font-size: 17px;
+  }
+  .R-title {
+    font-size: 22px;
+  }
+  li {
+    font-size: 11px;
+  }
 
-      .box-title {
-        font-size: 17px;
-      }
-      .R-title{
-        font-size: 22px;
-      }
-      li{
-        font-size: 11px;
-      }
-      
-      .howimg {
-        width: 90px;
-      }
-      
-      .circle {
-        border: 1.9px solid black;
-        font-size: 22px;
-        width: 15%;
-      }
+  .howimg {
+    width: 90px;
+  }
 
-      .whitetext {
-        font-size: 80px;
-      }
-      
-      .text-subtitle {
-        font-size: 25px;
-        margin-top: -40px;
-      }
+  .circle {
+    border: 1.9px solid black;
+    font-size: 22px;
+    width: 15%;
+  }
 
+  .whitetext {
+    font-size: 80px;
+  }
 
+  .text-subtitle {
+    font-size: 25px;
+    margin-top: -40px;
+  }
 }
 
-@media (max-width:400px) {
-    
-    .how {
-        width: 300px;
-      }
+@media (max-width: 400px) {
+  .how {
+    width: 300px;
+  }
 
-      .grid-parent {
-        grid-template-columns: 1fr;
-        width: auto;
-        margin-left: 50%;
-        margin-right: 50%;
-      }
-      /* the below ones are for making the card 4 an 5 to display in center */
-      .box:nth-child(4),
-      .box:nth-child(5) {
-        margin-left: 20px;
-        margin-right: 20px;
-      }
+  .grid-parent {
+    grid-template-columns: 1fr;
+    width: auto;
+    margin-left: 50%;
+    margin-right: 50%;
+  }
+  /* the below ones are for making the card 4 an 5 to display in center */
+  .box:nth-child(4),
+  .box:nth-child(5) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
-      .box {
-        width: 140px;
-        height: 200px;
-        font-size: 10px;
-        
-      }
+  .box {
+    width: 140px;
+    height: 200px;
+    font-size: 10px;
+  }
 
-      .box-title {
-        font-size: 17px;
-      }
-      .R-title{
-        font-size: 16px;
-        width: 100%;
-      }
-      li{
-        font-size: 11px;
-      }
-      .howimg {
-        width: 70px;
-      }
-      
-      .circle {
-        border: 1.9px solid black;
-        font-size: 20px;
-        width: 15%;
-      }
+  .box-title {
+    font-size: 17px;
+  }
+  .R-title {
+    font-size: 16px;
+    width: 100%;
+  }
+  li {
+    font-size: 11px;
+  }
+  .howimg {
+    width: 70px;
+  }
 
-      .whitetext {
-        font-size: 70px;
-      }
-      
-      .text-subtitle {
-        font-size: 23px;
-        margin-top: -35px;
-      }
+  .circle {
+    border: 1.9px solid black;
+    font-size: 20px;
+    width: 15%;
+  }
 
+  .whitetext {
+    font-size: 70px;
+  }
 
+  .text-subtitle {
+    font-size: 23px;
+    margin-top: -35px;
+  }
 }

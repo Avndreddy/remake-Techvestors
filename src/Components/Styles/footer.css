@@ -61,6 +61,13 @@
     gap: 7px;
     margin: 10px;
   }
+
+
+.text-effect
+{
+  position:static;
+  color: beige;
+}
 .text-effect:hover{
   font-size: 1.40rem;
   text-decoration: underline;
@@ -72,6 +79,7 @@
     display: flex;
     justify-content: center;
     margin: 15px;
+  
   }
 
 

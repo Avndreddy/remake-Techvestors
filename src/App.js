@@ -9,7 +9,8 @@ import First from "./Components/first";
 import How from "./Components/how";
 import Footer from "./Components/footer";
 import Why from "./Components/why";
-import Faq from "./Components/faq";
+import FAQSection from "./Components/faq";
+import AppBar from "./Components/appbar";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
         <Route path="/how" element={<How />} />
         <Route path="/footer" element={<Footer />} />
         <Route path="/why" element={<Why />} />
-        <Route path="/faq" element={<Faq />} />
+        <Route path="/faq" element={<FAQSection />} />
+        <Route path="/bar" element={<AppBar />} />
       </Routes>
     </BrowserRouter>
   );

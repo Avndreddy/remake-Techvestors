@@ -1,3 +1,5 @@
+
+
 .appbar {
   margin-top: 20px;
   border-radius: "20px";
@@ -35,11 +37,6 @@ Button.btn {
   border-radius: 20px;
   width: max-content;
   font-weight: 700;
-  @media (max-width: 600px) {
-    size: 10px;
-    font-size: 10px;
-  }
+
   
 }
-
-

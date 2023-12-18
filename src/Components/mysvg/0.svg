@@ -11,6 +11,7 @@
         font-size: 105px;
         font-weight: 600;
         stroke-width: 1;
+         text-shadow: 1px 2px 5px black;
       }
 
       .text-subtitle {
@@ -19,16 +20,20 @@
         text-align: center;
         font-size: 30px;
         font-weight: bolder;
+        text-shadow: .5px 1.5px 1.5px black;
       }
+ .shadow-effect{
+            filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+        }
     </style>
   </defs>
 
 
   <!-- Draw Hexagon with rotation -->
   <polygon points="150,15 285,75 285,225 150,285 15,225 15,75" 
-           fill="none" stroke="#a5d8ff" stroke-width="3" />
+           fill="none" class="shadow-effect" stroke="#a5d8ff" stroke-width="3" />
 
-           <text x="50%" y="40%" alignment-baseline="middle" text-anchor="middle" class="whitetext" dx="0" dy="30">WHO</text>
+           <text x="50%" y="40%" alignment-baseline="middle" text-anchor="middle" class="whitetext" dx="0" dy="30">WHY</text>
 
            <!-- Text "We Invest" -->
            <text x="50%" y="60%" alignment-baseline="middle" text-anchor="middle" class="text-subtitle" dx="0" dy="-10">We Invest</text>

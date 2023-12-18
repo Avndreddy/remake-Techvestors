@@ -1,11 +1,18 @@
 <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-
+  <defs>
+    <style>
+        .shadow-effect{
+          text-shadow: 2px 4px 6px black;
+          filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+        }
+    </style>
+  </defs>
   <!-- Draw Hexagon -->
   <polygon points="100,10 190,50 190,150 100,190 10,150 10,50" 
-           fill="none" stroke="#a5d8ff" stroke-width="3"/>
-<text x="100" y="100" font-family="Arial" font-size="60" fill="black" text-anchor="middle">📅</text>
+           fill="none" class="shadow-effect" stroke="#a5d8ff" stroke-width="3"/>
+<text x="100" y="100" class="shadow-effect" font-family="Arial" font-size="60" fill="black" text-anchor="middle">📅</text>
   <!-- Insert Text -->
-  <text x="100" y="100" font-family="Arial" font-size="18" font-weight="700" fill="black" text-anchor="middle" dx="0" dy="40">Staying</text>
-  <text x="100" y="100" font-family="Arial" font-size="18" font-weight="700" fill="black" text-anchor="middle" dx="0" dy="60">Upto-Date</text> 
+  <text x="100" y="100" class="shadow-effect" font-family="Arial" font-size="18" font-weight="700" fill="black" text-anchor="middle" dx="0" dy="40">Staying</text>
+  <text x="100" y="100" class="shadow-effect" font-family="Arial" font-size="18" font-weight="700" fill="black" text-anchor="middle" dx="0" dy="60">Upto-Date</text> 
 
 </svg>

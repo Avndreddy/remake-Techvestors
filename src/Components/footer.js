@@ -10,7 +10,7 @@ import { Box } from "@mui/material";
 
 export default function Footer() {
   return (
-    <Box className="container footer footer-container">
+    <Box className="container footer footer-container section">
       <div className="icon-container">
         <div className="white-logo">
           <img src={logo_white} alt="" />
@@ -46,14 +46,15 @@ export default function Footer() {
         </div>
         <div className="company">
           <strong>Contact</strong>
-          <a href="#">Support@Techvestors.Tech</a>
-          <a href="#">+91 8884937987</a>
+          <a>Support@Techvestors.Tech</a>
+          <a>+91 8884937987</a>
         </div>
       </div>
 <hr></hr>
-      <t className="botton-text">
+    <div className="botton-text">
+      
         © 2023 techvestors technologies private limited. all rights reserved
-      </t>
+      </div>
       
     </Box>
   );

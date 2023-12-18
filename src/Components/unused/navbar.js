@@ -51,7 +51,7 @@ export default function Test2() {
         marginTop: '20px',
         borderRadius: '10px',
         padding: isMobile ? "10px" : 'none',
-        position:"absolute"
+        position:"absolute",
       }}>
         <Toolbar>
           {isMobile &&  (

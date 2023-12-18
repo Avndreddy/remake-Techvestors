@@ -34,8 +34,7 @@ export default function Nav() {
 
   return (
 
-    <Box className="container">
-
+    <Box className="container section">
       <AppBar
         className="appbar"
         elevation={0}
