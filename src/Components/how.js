@@ -6,7 +6,7 @@ import applyimg from "./apply.svg";
 export default function How() {
   return (
     <Box className="container section how">
-      <div className="">
+      <div className="title-txt">
         <div className="whitetext">how</div>
         <div className="text-subtitle">We Work</div>
       </div>
@@ -48,7 +48,7 @@ export default function How() {
           project, keeping you informed every step of the way.
         </article>
       </div>
-      <div>
+      <div className="how-read">
         <heading className="R-title">
           Ready to get started on your project?
         </heading>

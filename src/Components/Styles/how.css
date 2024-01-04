@@ -11,6 +11,10 @@ Button.btn {
   position: static;
 }
 
+.title-txt{
+    margin-bottom: 25px;
+}
+
 .whitetext {
   text-shadow: -1px 1px 0 #d3d3d3, 1px 1px 0 #d3d3d3, 1px -1px 0 #d3d3d3,
     -1px -1px 0 #d3d3d3;
@@ -58,11 +62,13 @@ Button.btn {
   width: 180px;
   height: 280px;
   font-size: 13px;
+  
   gap: 15px;
   text-align: center;
   margin: 20px 20px;
   margin-left: 20px;
   margin-right: 20px;
+  box-shadow: 4px 4px 4px 2px #1D242C ;
 }
 
 .box-title {
@@ -92,6 +98,10 @@ Button.btn {
   font-weight: 700;
   color: black;
   width: 20%;
+}
+
+.how-read{
+  margin-top: 25px;
 }
 
 @media (max-width: 800px) {
@@ -201,7 +211,7 @@ Button.btn {
 
 @media (max-width: 400px) {
   .how {
-    width: 300px;
+    width: 400px;
   }
 
   .grid-parent {

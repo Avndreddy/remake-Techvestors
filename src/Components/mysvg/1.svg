@@ -14,7 +14,7 @@
            fill="none"  stroke="#a5d8ff" class="shadow-effect" stroke-width="3"/>
 <text x="100" y="100" class="shadow-effect" font-family="Arial" font-size="60" fill="black" text-anchor="middle" >🪡</text>
   <!-- Insert Text -->
-  <text x="100" y="100" class="shadow-effect" font-family="Arial" font-size="18" font-weight="700" fill="black" text-anchor="middle"  dx="0" dy="40">Tailor Made</text>
-  <text x="100" y="100" class="shadow-effect" font-family="Arial" font-size="18" font-weight="700" fill="black" text-anchor="middle" dx="0" dy="60">Development</text>
+  <text x="100" y="100"  font-family="Arial" font-size="18" font-weight="700" fill="black" text-anchor="middle"  dx="0" dy="40">Tailor Made</text>
+  <text x="100" y="100" font-family="Arial" font-size="18" font-weight="700" fill="black" text-anchor="middle" dx="0" dy="60">Development</text>
 
 </svg>

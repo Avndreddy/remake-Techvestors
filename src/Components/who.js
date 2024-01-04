@@ -6,11 +6,11 @@ import "./Styles/utils.css";
 
 export default function Who() {
   return (
-    <Box className="container who section">
-      <div>
+    <Box >
+      <div className="who">
         <div className="whitetext">WHO</div>
         <div className="text-subtitle">We Invest</div>
-      </div>
+      
       <div className="parent">
       <img className="whoimg"
           src={whoimg}
@@ -49,7 +49,7 @@ export default function Who() {
           </p>
           </div>
       </div>
-
+      </div>
     </Box>
   );
 }

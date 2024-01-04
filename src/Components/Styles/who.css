@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 800px;
+  width: auto;
 }
 
 .whitetext {
@@ -107,6 +107,9 @@ li {
 }
 
 @media (max-width: 600px) {
+  .who{
+    padding-left: 3rem;
+  }
   .flex-container {
     width: 400px;
     font-size: 0.75rem;
@@ -118,6 +121,7 @@ li {
   }
 }
 @media (max-width: 400px) {
+
   .flex-container {
     width: 350px;
     font-size: 0.75rem;
@@ -134,5 +138,17 @@ li {
   .text-subtitle {
     font-size: 23px;
     margin-top: -35px;
+  }
+}
+
+@media (max-width:375px) {
+  .who{
+   padding-left: 5rem;
+  }
+}
+
+@media (max-width:340px) {
+  .who{
+   padding-left: 7rem;
   }
 }

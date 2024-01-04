@@ -1,23 +1,19 @@
-
 .appBar {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-radius: 20px;  
-  width:100%;
-  position:fixed;
+  border-radius: 20px;
+  width: 100%;
+  position: fixed;
   top: 0;
-background-size: cover;
-background-color: rgba(254, 254, 254, 1); 
-z-index: 1;
-
-
+  background-size: cover;
+  background-color: rgba(254, 254, 254, 0.8);
+  z-index: 1;
 }
 
-
 .logo {
- justify-content: center;
+  justify-content: center;
   width: 250px;
   padding-left: 20px;
 }
@@ -25,7 +21,6 @@ z-index: 1;
 .atag {
   display: flex;
   gap: 50px;
- 
 }
 
 a {
@@ -38,7 +33,7 @@ a {
 }
 a:hover {
   animation-delay: 1ms;
-  color: #0176C3;
+  color: #0176c3;
 }
 
 .btn {
@@ -47,62 +42,62 @@ a:hover {
   font-weight: 700;
 }
 
-.app-bar-btn{
-    padding-right: 20px;
+.app-bar-btn {
+  padding-right: 20px;
 }
 
-.menu{
+.menu {
+  display: none;
+  padding-right: 20px;
+}
+
+@media (max-width: 800px) {
+  .appBar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .logo {
+    width: 225px;
+    padding-top: 10px;
+  }
+
+  .atag {
     display: none;
-    padding-right: 20px;
+  }
+  .app-bar-btn {
+    display: none;
+  }
+  .menu {
+    display: unset;
+  }
 }
 
-@media (max-width:800px) {
-    .appBar {
-        padding-top: 15px;
-        padding-bottom: 15px;
-      }
-    .logo {
-        width: 225px;
-        padding-top: 10px;
-      }
-
-    .atag{
-        display: none;
-    }
-    .app-bar-btn{
-        display:none;
-    }
-    .menu{
-       display: unset;
-    }
-}
-
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .appBar {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-    .logo {
-        width: 200px;
-      }
+  .logo {
+    width: 200px;
+  }
 }
 
-@media (max-width:400px) {
+@media (max-width: 400px) {
   .appBar {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-    .logo {
-        width: 180px;
-      }
+  .logo {
+    width: 180px;
+  }
 }
 
-@media (max-width:375px) {
+@media (max-width: 375px) {
   .appBar {
     padding-top: 10px;
     padding-bottom: 10px;
   }
-    .logo {
-        width: 180px;
-      }
+  .logo {
+    width: 180px;
+  }
 }

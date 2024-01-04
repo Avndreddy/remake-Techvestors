@@ -10,8 +10,8 @@ import "./Styles/why.css";
 
 export default function Why() {
   return (
-    <Box className="container why section hexagon-container">
-        <div className="maindiv ">
+    <Box style={{backgroundcolor: "#eff7fa"}} className="container why section hexagon-container">
+        <div className="maindiv " >
       <div className="hexagon-wrapper ">      
         <img  src={one} alt="1" className="contentimg topimg" />   
         <img  src={two} alt="2" className="contentimg topimg" />

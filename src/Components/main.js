@@ -13,13 +13,14 @@ import AppBar from "./appbar";
 export default function Main() {
 
   return (
-<Box className="container">
+<Box>
   <AppBar/>
   <First/>
   <Who/>
   <How/>
   <Why/>
   <FAQSection/>
+  <Footer/>
 </Box>
   );
 }

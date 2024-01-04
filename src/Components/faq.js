@@ -17,7 +17,7 @@ export default function FAQSection() {
   const ans = showans ? "unset" : "none";
 
   return (
-    <Box className="section">
+    <Box className="section Faq">
       <div>
         <div className="whitetext">FAQ</div>
         <div className="text-subtitle">Need Help?</div>

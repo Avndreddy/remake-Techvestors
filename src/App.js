@@ -11,6 +11,7 @@ import Footer from "./Components/footer";
 import Why from "./Components/why";
 import FAQSection from "./Components/faq";
 import AppBar from "./Components/appbar";
+import What from "./Components/what";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/why" element={<Why />} />
         <Route path="/faq" element={<FAQSection />} />
         <Route path="/bar" element={<AppBar />} />
+        <Route path="/what" element={<What />} />
       </Routes>
     </BrowserRouter>
   );

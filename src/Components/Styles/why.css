@@ -1,178 +1,171 @@
-.why{
-  max-width:auto;
+.why {
   background-color: #eff7fa;
-position:static;
+  position: static;
 }
 .hexagon-container {
-  position:static;
-  }
-  
-  .fulltitle {
-    display: flex;
-    margin: 0;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 250px;
-    height: 250px;
-  }
-
-  .img{
-    mix-blend-mode: multiply;
-  }
-  
-  .hexagon-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position:static;
-  }
-  
-  .contentimg {
-    width: 150px;
-    height: 150px;
-    display: inline-block;
+  position: static;
 }
 
-.topimg{
+.fulltitle {
+  display: flex;
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+.img {
+  mix-blend-mode: multiply;
+}
+
+.hexagon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: static;
+}
+
+.contentimg {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.topimg {
   margin-left: 25px;
   margin-right: 25px;
   margin-bottom: 17.5px;
 }
 
-.downimg{
+.downimg {
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 17.5px;
 }
 
-
-.maindiv{
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 0%;
-    position: relative;
+.maindiv {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 0%;
+  position: relative;
 }
 
 .hexagon-wrapper.midcontainer {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-top: -50px; /* Adjust the margin-top value as needed to move the images down */
   margin-bottom: -50px;
 }
 
-
-@media (max-width:600px) {
-  .why{
+@media (max-width: 600px) {
+  .why {
     margin-top: 50px;
-    width: 500px;
+    width: 100%;
+    padding: 1em;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .contentimg {
     width: 125px;
-    height: 125px;  
+    height: 125px;
+  }
+
+  .fulltitle {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .topimg {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: -7.5px;
+  }
+
+  .downimg {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: -7.5px;
+  }
+
+  .hexagon-wrapper.midcontainer {
+    margin-top: -25px; /* Adjust the margin-top value as needed to move the images down */
+    margin-bottom: -25px;
+  }
 }
 
-.fulltitle {
-  display: flex;
-  width: 200px;
-  height: 200px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.topimg{
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-bottom: -7.5px;
-}
-
-.downimg{
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-top: -7.5px;
-}
-
-.hexagon-wrapper.midcontainer {
-
-  margin-top: -25px; /* Adjust the margin-top value as needed to move the images down */
-  margin-bottom: -25px;
-}
-}
-
-
-
-
-
-
-@media (max-width:500px) {
-  .why{
-    width: 400px;
+@media (max-width: 500px) {
+  .why {
+    width: 100%;
   }
 
   .contentimg {
     width: 100px;
-    height: 100px;  
-}
-
-.fulltitle {
-  display: flex;
-  width: 150px;
-  height: 150px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.topimg{
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 7.5px;
-}
-
-.downimg{
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 7.5px;
-}
-
-}
-
-
-
-@media (max-width:400px) {
-  .why{
-    width: 320px;
+    height: 100px;
   }
 
+  .fulltitle {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .topimg {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 7.5px;
+  }
+
+  .downimg {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 7.5px;
+  }
+}
+
+@media (max-width: 400px) {
+.why{
+  width: 100%;
+  padding-left: 2em;
+}
   .contentimg {
     width: 87.5px;
-    height: 87.5px;  
+    height: 87.5px;
+  }
+
+  .fulltitle {
+    display: flex;
+    width: 125px;
+    height: 125px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .topimg {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 7.5px;
+  }
+
+  .downimg {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7.5px;
+  }
 }
 
-.fulltitle {
-  display: flex;
-  width: 125px;
-  height: 125px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-.topimg{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 7.5px;
-}
-
-.downimg{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 7.5px;
-}
-
-}
 
 
-
-
-
-
+@media (max-width: 375px) and (max-width:320px) {
+  .why{
+    padding: 2rem;
+  }
+  }
+  
