@@ -45,7 +45,7 @@ export default function What() {
   
 
   return (
-    <Box className="What">
+    <Box className="What conatiner">
       <div>
         <div className="whitetext">WHAT</div>
         <div className="text-subtitle">We Invest</div>
@@ -80,7 +80,7 @@ export default function What() {
         <div className="tabs__arrows"></div>
       </div>
       <div className="arrows">
-        <button className="left_arrow" onClick={handlePrevTab}>
+      <button className="left_arrow" onClick={handlePrevTab}>
          <ArrowBackIosNewIcon className="Arrow_icon" fontSize="20px"/>
         </button>
         <div className="tabs__content">

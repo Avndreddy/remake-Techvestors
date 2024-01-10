@@ -9,13 +9,14 @@ import Why from "./why";
 import Footer from "./footer";
 import FAQSection from "./faq";
 import AppBar from "./appbar";
-
+import What from "./what";
 export default function Main() {
 
   return (
 <Box>
   <AppBar/>
   <First/>
+  <What/>
   <Who/>
   <How/>
   <Why/>

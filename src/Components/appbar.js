@@ -1,32 +1,3 @@
-// import "./Styles/appbar.css";
-// import { Box, Button } from "@mui/material";
-// import Logo from "../Logo.svg";
-
-// export default function AppBar() {
-//   return (
-//     <Box className="">
-//       <div className="appBar">
-//         <div style={{position:"static"}}>
-//           <img src={Logo} alt="Logo" className="logo" />
-//         </div>
-//         <div className="atag">
-//           <a href="#">one</a>
-//           <a href="#">two</a>
-//           <a href="#">three</a>
-//         </div>
-//         <div className="app-bar-btn">
-//           <Button variant="contained" className="btn">
-//             Enquire Now
-//           </Button>
-//         </div>
-//         <div className="menu"><p>testing</p></div>
-//       </div>
-//     </Box>
-//   );
-// }
-
-
-
 import React, { useState } from "react";
 import { Box, Button, Drawer, List, ListItem, ListItemText, IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -52,9 +23,9 @@ export default function AppBar() {
           <img src={Logo} alt="Logo" className="logo" />
         </div>
         <div className="atag">
-          <a href="#">one</a>
-          <a href="#">two</a>
-          <a href="#">three</a>
+          <a href="#">Home</a>
+          <a href="#">Solutions</a>
+          <a href="#">Work With Us</a>
         </div>
         <div className="app-bar-btn">
           <Button variant="contained" className="btn">
@@ -77,13 +48,13 @@ export default function AppBar() {
         <br/>
         <List>
           <ListItem button onClick={handleDrawerClose}>
-            <ListItemText primary="one" />
+            <ListItemText primary="Home" />
           </ListItem>
           <ListItem button onClick={handleDrawerClose}>
-            <ListItemText primary="two" />
+            <ListItemText primary="Solutions" />
           </ListItem>
           <ListItem button onClick={handleDrawerClose}>
-            <ListItemText primary="three" />
+            <ListItemText primary="Work With Us" />
           </ListItem>
           <ListItem button onClick={handleDrawerClose}>
             <Button variant="contained" className="btn">
